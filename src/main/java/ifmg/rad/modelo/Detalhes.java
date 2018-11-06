@@ -21,9 +21,9 @@ public class Detalhes implements Serializable {
 	@JoinColumn(name="codAtividade")
 	private Atividade atividade ;
 	
-	@OneToOne
-	@JoinColumn(name="codDisciplina")
-	private UsuarioAutenticado disciplina;
+	//@OneToOne
+	//@JoinColumn(name="codDisciplina")
+	//private UsuarioAutenticado disciplina;
 	
 	public Detalhes() {
 		

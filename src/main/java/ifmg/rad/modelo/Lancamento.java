@@ -27,7 +27,7 @@ public class Lancamento implements Serializable {
 	
 	@OneToOne
 	@JoinColumn(name="codUsuarioAutenticado")
-	private UsuarioAutenticado professor;
+	private Pessoa professor;
 	@ManyToMany
 	@JoinTable(
 			name="LancamentoDetalhes",
